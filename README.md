@@ -43,7 +43,7 @@ This way the calories estimator will have the following signature
 
 ```
 export class CaloriesEstimator{
-    public static async get(filename: string): Promise<CaloriesEstimation>{
+    public static async get(filename: string): Promise<CaloriesEstimation | undefined>{
     ...
     }
 }
