@@ -1,0 +1,21 @@
+{
+  "name": "gemini-calories",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.25.0",
+    "dotenv": "^17.2.3",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.8.1"
+  }
+}
